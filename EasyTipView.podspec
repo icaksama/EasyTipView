@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
   s.name = 'EasyTipView'
-  s.version = '1.1.0'
+  s.version = '0.0.1'
   s.license = 'MIT'
-  s.summary = 'Elegant tooltip view written in Swift'
+  s.summary = 'Elegant tooltip view written in Swift4'
 
   s.description = 'EasyTipView is a fully customisable tooltip view written in Swift that can be used as a call to action or informative tip. It can be shown above of below any UIBarItem or UIView subclass.'
 
-  s.homepage = 'https://github.com/teodorpatras/EasyTipView'
+  s.homepage = 'https://github.com/icaksama/EasyTipView'
   s.social_media_url = 'http://twitter.com/teodorpatras'
   s.authors = { 'Teodor Patraș' => 'me@teodorpatras.com' }
-  s.source = { :git => 'https://github.com/teodorpatras/EasyTipView.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/icaksama/EasyTipView.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'Source/*.swift'
